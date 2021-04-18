@@ -1,46 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:columnCount="4">
 
-    <Button android:text="@string/btn_1" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <Button android:text="@string/btn_2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button android:text="@string/btn_3" />
+        <TextView
+            android:id="@+id/calcScreen"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/screen_result"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
 
-    <Button android:text="@string/btn_delitel" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:columnCount="4">
 
-    <Button android:text="@string/btn_4" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/blank_window" />
 
-    <Button android:text="@string/btn_5" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/open_bracket" />
 
-    <Button android:text="@string/btn_6" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/close_bracket" />
 
-    <Button android:text="@string/btn_multiply" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_delitel" />
 
-    <Button android:text="@string/btn_7" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/btn_1" />
 
-    <Button android:text="@string/btn_8" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/btn_2" />
 
-    <Button android:text="@string/btn_9" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/btn_3" />
 
-    <Button android:text="@string/btn_minus" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_multiply" />
 
-    <Button
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_4" />
 
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_5" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_6" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_minus" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_7" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_8" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_9" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_plus" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_dot" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_0" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_height="80dp"
+            android:layout_columnSpan="2"
+            android:text="@string/btn_equals" />
+    </GridLayout>
+
+</FrameLayout>
+
+
+    <!--
         android:layout_columnSpan="2"
-        android:layout_gravity="fill"
-        android:text="@string/btn_0" />
-
-    <Button android:text="@string/btn_dot" />
-
-    <Button android:text="@string/btn_plus" />
-
-    <Button
-        android:layout_columnSpan="4"
-        android:layout_gravity="fill"
-        android:text="@string/btn_equals" />
-</GridLayout>
+        android:layout_gravity="fill"-->
