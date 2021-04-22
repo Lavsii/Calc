@@ -16,8 +16,11 @@
     <string name="btn_0">0</string>
     <string name="btn_dot">.</string>
     <string name="btn_equals">=</string>
-    <string name="screen_result">Здесь результаты вычислений</string>
+<!--<string name="screen_result">Здесь результаты вычислений</string>-->
     <string name="blank_window">C</string>
     <string name="open_bracket">(</string>
     <string name="close_bracket">)</string>
+    <string name="degree_overflow">Превышено значение</string>
+    <string name="limit">Лимит операций</string>
+    <string name="no_operation">Недопустимая операция</string>
 </resources>
